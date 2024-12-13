@@ -6,17 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E92BE30C2D0CC1DF000CD82D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92BE3092D0CC1DF000CD82D /* ContentView.swift */; };
+		E92BE30D2D0CC1DF000CD82D /* CustonShapesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92BE30A2D0CC1DF000CD82D /* CustonShapesApp.swift */; };
+		E92BE30E2D0CC1DF000CD82D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92BE3062D0CC1DF000CD82D /* Preview Assets.xcassets */; };
+		E92BE30F2D0CC1DF000CD82D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92BE3082D0CC1DF000CD82D /* Assets.xcassets */; };
+		E92BE3132D0CC299000CD82D /* XShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92BE3122D0CC298000CD82D /* XShape.swift */; };
+		E92BE3152D0CC2AE000CD82D /* Pentagonshape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92BE3142D0CC2AE000CD82D /* Pentagonshape.swift */; };
+		E92BE3172D0CC2BF000CD82D /* YShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92BE3162D0CC2BF000CD82D /* YShape.swift */; };
+		E92BE3192D0CC2F6000CD82D /* EShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92BE3182D0CC2F6000CD82D /* EShape.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E92BE2F52D0CC1A1000CD82D /* CustonShapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustonShapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92BE3062D0CC1DF000CD82D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E92BE3082D0CC1DF000CD82D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E92BE3092D0CC1DF000CD82D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E92BE30A2D0CC1DF000CD82D /* CustonShapesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustonShapesApp.swift; sourceTree = "<group>"; };
+		E92BE3122D0CC298000CD82D /* XShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XShape.swift; sourceTree = "<group>"; };
+		E92BE3142D0CC2AE000CD82D /* Pentagonshape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pentagonshape.swift; sourceTree = "<group>"; };
+		E92BE3162D0CC2BF000CD82D /* YShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YShape.swift; sourceTree = "<group>"; };
+		E92BE3182D0CC2F6000CD82D /* EShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		E92BE2F72D0CC1A1000CD82D /* CustonShapes */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CustonShapes;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E92BE2F22D0CC1A1000CD82D /* Frameworks */ = {
@@ -32,7 +43,7 @@
 		E92BE2EC2D0CC1A1000CD82D = {
 			isa = PBXGroup;
 			children = (
-				E92BE2F72D0CC1A1000CD82D /* CustonShapes */,
+				E92BE30B2D0CC1DF000CD82D /* CustonShapes */,
 				E92BE2F62D0CC1A1000CD82D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +54,45 @@
 				E92BE2F52D0CC1A1000CD82D /* CustonShapes.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E92BE3072D0CC1DF000CD82D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E92BE3062D0CC1DF000CD82D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E92BE30B2D0CC1DF000CD82D /* CustonShapes */ = {
+			isa = PBXGroup;
+			children = (
+				E92BE30A2D0CC1DF000CD82D /* CustonShapesApp.swift */,
+				E92BE3112D0CC274000CD82D /* Shapes */,
+				E92BE3102D0CC1FC000CD82D /* Views */,
+				E92BE3072D0CC1DF000CD82D /* Preview Content */,
+				E92BE3082D0CC1DF000CD82D /* Assets.xcassets */,
+			);
+			path = CustonShapes;
+			sourceTree = "<group>";
+		};
+		E92BE3102D0CC1FC000CD82D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E92BE3092D0CC1DF000CD82D /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E92BE3112D0CC274000CD82D /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				E92BE3122D0CC298000CD82D /* XShape.swift */,
+				E92BE3142D0CC2AE000CD82D /* Pentagonshape.swift */,
+				E92BE3162D0CC2BF000CD82D /* YShape.swift */,
+				E92BE3182D0CC2F6000CD82D /* EShape.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +109,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				E92BE2F72D0CC1A1000CD82D /* CustonShapes */,
 			);
 			name = CustonShapes;
 			packageProductDependencies = (
@@ -109,6 +156,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E92BE30E2D0CC1DF000CD82D /* Preview Assets.xcassets in Resources */,
+				E92BE30F2D0CC1DF000CD82D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E92BE3192D0CC2F6000CD82D /* EShape.swift in Sources */,
+				E92BE30C2D0CC1DF000CD82D /* ContentView.swift in Sources */,
+				E92BE3132D0CC299000CD82D /* XShape.swift in Sources */,
+				E92BE3152D0CC2AE000CD82D /* Pentagonshape.swift in Sources */,
+				E92BE3172D0CC2BF000CD82D /* YShape.swift in Sources */,
+				E92BE30D2D0CC1DF000CD82D /* CustonShapesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
