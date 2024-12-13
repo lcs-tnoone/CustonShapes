@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-struct Cshape: Shape {
+struct CShape: Shape {
     func path(in rect: CGRect) -> Path {
         var path = Path()
         path.move(to: CGPoint(x: rect.minX, y: rect.minY))
@@ -21,14 +21,11 @@ struct Cshape: Shape {
         path.addLine(to: CGPoint(x: rect.minX, y: rect.maxY * 0.99))
 
 
-
-
-
         
         return path
     }
 }
 
 #Preview {
-    Cshape()
+    CShape()
 }

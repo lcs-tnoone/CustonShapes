@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Pentagonshape: Shape {
+struct PentagonShape: Shape {
     func path(in rect: CGRect) -> Path {
         var path = Path()
         path.move(to: CGPoint(x: rect.minX, y: rect.maxY / 5 * 2))
@@ -21,6 +21,6 @@ struct Pentagonshape: Shape {
 }
 
 #Preview {
-    Pentagonshape()
+    PentagonShape()
         .padding()
 }
